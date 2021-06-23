@@ -3,7 +3,9 @@
 .card-image {
   max-width: 100%;
   height: auto;
-  width: 250px;
+  width: auto;
+  border-radius: 12px;
+
 }
 .card-title {
   color: $titleColor;
@@ -51,7 +53,8 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  height: auto;
+  width: auto;
   overflow: hidden;
   text-align: center;
 }
